@@ -1,0 +1,39 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+div .logo .image{
+   float: left;
+
+}
+
+div .logo .title{
+    float: left;
+    margin-top: 50px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 4rem;
+}
+
+div .image {
+    width: 150px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 680px) {
+    .logo {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}
+  

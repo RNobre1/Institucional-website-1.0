@@ -1,0 +1,19 @@
+footer {
+    background-color: #463B41;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .image{
+    float: right;
+}
+
+footer .logo{
+    float: left;
+}

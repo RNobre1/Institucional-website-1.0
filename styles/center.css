@@ -1,0 +1,19 @@
+.main {
+    flex: 1;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.tile-image {
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 45%;
+}
