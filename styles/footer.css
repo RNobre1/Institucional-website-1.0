@@ -17,3 +17,25 @@ footer .image{
 footer .logo{
     float: left;
 }
+
+@media (max-width: 680px){
+    footer {
+        background-color: #463B41;
+        color: #fff;
+        padding: 5%;
+        text-align: right;
+    }
+    
+    footer a{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    footer .image{
+        display: none;
+    }
+    
+    footer .logo{
+        float: left;
+    }
+}

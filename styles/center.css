@@ -2,10 +2,6 @@
     flex: 1;
 }
 
-h1 {
-    font-size: 5rem;
-}
-
 .tile-image {
     width: 300px;
     float: left;
@@ -16,4 +12,12 @@ h1 {
 
 .card {
     width: 45%;
+}
+
+.left {
+    float: left;
+}
+  
+.right {
+    float: right;
 }

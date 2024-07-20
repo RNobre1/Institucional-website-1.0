@@ -3,7 +3,7 @@ div nav {
     color: #fff;
     padding: 20px;
     text-align: center;
-    float: left;
+    display: flex;
 }
 
 div nav ul {
@@ -24,4 +24,36 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
+}
+
+@media (max-width: 680px){
+    div .image {
+        display: none;
+    }
+    
+    div .logo .title{
+        display: none;
+    }
+
+    div nav {
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+    }
+    
+    div nav ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 25px;
+        margin-right: 0px;
+        display: inline-block;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
 }
